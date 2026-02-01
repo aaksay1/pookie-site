@@ -47,6 +47,12 @@ npm start
    - **https://\<your-username\>.github.io/\<repo-name\>/**  
    Example: `https://octocat.github.io/pookie-site/`
 
+**Seeing the README instead of the site?**  
+GitHub is serving the repo instead of the built site. Fix it:
+- Go to the repo **Settings** → **Pages**.
+- Under **Build and deployment**, set **Source** to **GitHub Actions** (not “Deploy from a branch”).
+- If it was “Deploy from a branch”, switch to **GitHub Actions**, save, then push a small commit to `main` to re-run the workflow. After the workflow completes, refresh your site URL.
+
 ## Stack
 
 - Next.js 14 (App Router)
