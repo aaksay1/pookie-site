@@ -1,7 +1,7 @@
 # Valentine's Day Single-Page Site
 
 A playful Valentine's Day single-page website built with **Next.js (App Router)**.
-
+Deployed at: https://aaksay1.github.io/pookie-site/
 ## Features
 
 - **One main page** with the question: “Will you be my Valentine? 💖”
@@ -19,8 +19,6 @@ A playful Valentine's Day single-page website built with **Next.js (App Router)*
 npm install
 npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000).
 
 ## Build
 
