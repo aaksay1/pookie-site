@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(135deg, #ffe4ec 0%, #ffc0cb 30%, #ffb6c1 60%, #ff69b4 100%);
+  font-family: "Segoe UI", "Nunito", system-ui, sans-serif;
+}
