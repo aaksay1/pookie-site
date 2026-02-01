@@ -29,6 +29,24 @@ npm run build
 npm start
 ```
 
+(Note: with `output: "export"`, the build produces static files in `out/`. `npm start` won’t serve them; use a static server like `npx serve out` to preview.)
+
+## Deploy to GitHub Pages
+
+1. **Push this repo to GitHub** (create a repo and push your code).
+
+2. **Turn on GitHub Pages:**
+   - Repo → **Settings** → **Pages**
+   - Under **Build and deployment**, set **Source** to **GitHub Actions**.
+
+3. **Push to `main`.**  
+   The included workflow (`.github/workflows/deploy.yml`) runs on every push to `main`: it builds the static site and deploys it to GitHub Pages.
+
+4. **Open your site.**  
+   After the workflow finishes (Actions tab), the site will be at:
+   - **https://\<your-username\>.github.io/\<repo-name\>/**  
+   Example: `https://octocat.github.io/pookie-site/`
+
 ## Stack
 
 - Next.js 14 (App Router)
